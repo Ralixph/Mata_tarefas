@@ -74,7 +74,7 @@ public class KillController {
 		else if((a.contains("nux")) || (a.contains("mac"))) {
 			
 			// comando para encontrar o IPv4 no ip addr
-			comando = "cmd.exe /c kill -9"+JOptionPane.showInputDialog("Insira o PID da tarefa que deseja matar");;	
+			comando = "kill -9"+JOptionPane.showInputDialog("Insira o PID da tarefa que deseja matar");;	
 				
 		}
 		else {
@@ -109,7 +109,7 @@ public class KillController {
 		else if((a.contains("nux")) || (a.contains("mac"))) {
 			
 			// comando para encontrar o IPv4 no ip addr
-			comando = "cmd.exe /c pkill -f "+JOptionPane.showInputDialog("Insira o nome da tarefa que deseja matar");;	
+			comando = "pkill -f "+JOptionPane.showInputDialog("Insira o nome da tarefa que deseja matar");;	
 				
 		}
 		else {
